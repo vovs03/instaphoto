@@ -1,0 +1,18 @@
+# Create: 2018-05-27
+# Time: 15:14
+# Web-developer: Vladimir Pavlychev @KeyJoo
+
+build:
+  languages:
+    - ruby
+  packages:
+    - imagemagick
+  config:
+    RAILS_ENV: development
+release:
+  version:
+    - v.0.0.1
+  command:
+    - rake db:migrate
+run:
+  web: bundle exec puma -C config/puma.rb
