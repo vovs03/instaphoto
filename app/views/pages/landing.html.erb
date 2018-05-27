@@ -1,6 +1,7 @@
-<h1></h1>
-<p></p>
 
+<% if user_signed_in? %>
+
+<% else %>
 
 <div class="jumbotron jumbotron-landing">
   <h1 class="display-4">Делитесь своими эмоциями</h1>
@@ -12,8 +13,9 @@
   <!-- Buttons-->
   <div class="text-center">
 
-    <a class="btn btn-primary primary primary-bg" href="#" role="button">Зарегистрироваться</a>
-    <a class="btn btn-success" href="#" role="button">Войти</a>  
+    <%= link_to "Создать аккаунт", new_user_registration_path, class: "btn btn-primary primary primary-bg" %>
+    <%= link_to "Войти", new_user_session_path, class: "btn btn-success" %>  
   </div>
-  
 </div>
+
+<% end %> 

@@ -13,12 +13,20 @@
       <div class="container">
     
       <ul class="nav">
-        <li class="nav-item nav-link active nav-landing">
-          <%= link_to "Insta Photo", root_path %>
+        <li class="nav-item nav-link active">
+          <%= link_to "Insta Photo", root_path, class:'nav-landing' %>
         </li>
-        <li class="nav-item nav-link nav-landing">
-          <%= link_to "О проекте", pages_about_path %>
+        <li class="nav-item nav-link">
+          <%= link_to "О проекте", pages_about_path, class:'nav-landing' %>
         </li>
+
+  <%# Button -Exit- only if User signed in!!! %>
+  <% if user_signed_in? %>
+        <li class="nav-item nav-link">
+          <%= link_to "Выйти", destroy_user_session_path, method: :delete, class:'nav-landing' %>
+        </li>
+  <% end %>
+  
       </ul>
 
       <p class="notice"><%= notice %></p>
