@@ -9,18 +9,27 @@
   </head>
 
   <body>
-    <div class="container">
-    <ul class="nav">
-      <li class="nav-item nav-link active">
-        <%= link_to "Главная", root_path %>
-      </li>
-      <li class="nav-item nav-link">
-        <%= link_to "О нас", pages_about_path %>
-      </li>
-    </ul>
-
-    <%= yield %>  
-    </div>
+    <div class="container-fluid container-background">
+      <div class="container">
     
+      <ul class="nav">
+        <li class="nav-item nav-link active nav-landing">
+          <%= link_to "Insta Photo", root_path %>
+        </li>
+        <li class="nav-item nav-link nav-landing">
+          <%= link_to "О проекте", pages_about_path %>
+        </li>
+      </ul>
+
+      <%= yield %>  
+      </div>
+    </div>
+
+    <footer>
+      <div class="container-fluid text-center footer-bg">
+        <p>(c) 2018 OsArts</p>  
+      </div>
+      
+    </footer>
   </body>
 </html>
