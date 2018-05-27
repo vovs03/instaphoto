@@ -1,0 +1,56 @@
+$display4-size: 2.0rem;
+$jumbotron-bg: rgba(205,255,205,0.2);
+
+// variable buttons
+$btn-primary: rgba(22, 160, 133, 1);
+$btn-succes-color: #F9690E;
+
+@import "bootstrap";
+.container-background {
+  width: 100%;
+  height: 100vh;
+  /*-webkit-background-size: cover; */
+  background-size: cover;
+  background-image: url(image_path('landing_jumbotron_1280.jpg'));
+}
+
+/* === Menu === */
+
+.nav-landing:link,
+.nav-landing:visited, {
+  color: #96281B;
+  color: #96281B;
+}
+
+.nav-landing:hover,
+.nav-landing:active, {
+  color: #F24431;
+  color: #F24431;
+  text-decoration: none;
+}
+
+
+.jumbotron-landing {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+
+.btn-primary:link,
+.btn-primary:visited {
+  background-color: #F9690E;
+  border-color: #F9690E;
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+  background-color: #F3490E;
+  border-color: #F3490E;
+}
+
+
+.footer-bg {
+  width: 100%;
+  height: 20px;
+}
