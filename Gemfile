@@ -27,7 +27,8 @@ gem 'jbuilder', '~> 2.5'
 
 ## 2018-05-24
 gem 'bootstrap', '~> 4.1', '>= 4.1.1'
-gem 'nokogiri', '~> 1.8', '>= 1.8.2'
+## 2018-05-30 remove
+# gem 'nokogiri', '~> 1.8', '>= 1.8.2'
 
 ## 2018-05-27
 gem 'devise', '~> 4.2'
