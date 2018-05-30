@@ -4,6 +4,11 @@ $jumbotron-bg: rgba(205,255,205,0.2);
 // variable buttons
 $btn-primary: rgba(22, 160, 133, 1);
 $btn-succes-color: #F9690E;
+$btn-primary-bg: #A454545;
+
+@import "colors"; 
+@import 'bootstrap/variables';  
+@import "_boostrap-variables"; 
 
 @import "bootstrap";
 .container-background {
