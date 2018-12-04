@@ -44,8 +44,11 @@ group :development do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Adds support for Capybara system testing and selenium driver
-  gem 'capybara', '~> 2.13'
-  gem 'selenium-webdriver'
+  
+  # 2018-12-04 15:08
+  # gem 'capybara', '~> 2.13'
+  # gem 'selenium-webdriver'
+  
   ## 2018-05-24
   #gem 'rspec', '~> 3.7'
 
@@ -56,6 +59,8 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   # Use sqlite3 as the database for Active Record
+  
+  # 2018-12-04 return
   gem 'sqlite3'
 end
 
@@ -65,4 +70,6 @@ group :production do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# 2018-12-04 15:10 set comment
+# gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
