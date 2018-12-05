@@ -12,6 +12,8 @@ Project Instaphoto test deployed in Heroku: [App](https://instaphoto-osarts.hero
 
 ## Preparing after cloned
 
+### Unpack project
+
 `cd instaphoto`  
 `bundle install`
 
@@ -25,6 +27,19 @@ Project Instaphoto test deployed in Heroku: [App](https://instaphoto-osarts.hero
 - `rails s`
 
 :warning: Check again
+
+### Run some scripts
+
+Run once
+
+1. 'Copying alias string `alias shs='sh s.sh'` to ~/.bashrc & ~/.zshrc'
+   - `sh set-alias.sh`
+2. `sh start-project-local.sh`
+
+Run periodically
+
+1. :heart: Periodical `shs` - alias of run script: `sh s.sh`
+   - :warning: Run it only in specifically in local repository: `cd ~/code/github/instaphoto`"
 
 ---
 
