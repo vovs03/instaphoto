@@ -1,6 +1,6 @@
 #!/usr/bin/sh
 # 2018-12-04 15:57
-# Vladimir Pavlychev
+# Author: Vladimir Pavlychev <vladimir.keyjoo@gmail.com> 
 
 
 echo "Using bundle install"
