@@ -28,6 +28,11 @@ Project Instaphoto test deployed in Heroku: [App](https://instaphoto-osarts.hero
 
 :warning: Check again
 
+### Using RVM
+
+- `/bin/bash --login`
+- `rvm --default use 2.5.1`
+
 ### Run some scripts
 
 Run once
