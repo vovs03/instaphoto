@@ -6,23 +6,28 @@
 
 #`alias shs='sh s.sh'` to ~/.bashrc & ~/.zshrc'
 
-$b = '~/.bashrc'
-$z = '~/.zshrc'
+b=~/.bashrc
+z=~/.zshrc
+# set date
+d=$(date)
 
 clear
-echo "Set alias -shs- to ~/.bashrc "
+echo "Set alias -shs- to $b"
 
-echo ""  >> ~/.bashrc
-echo "# Settings alias for project https://github.com/KeyJoo/instaphoto" >> ~/.bashrc
-echo "# Run it only in specifically in ~/code/github/instaphoto " >> ~/.bashrc
-echo "alias shs='sh s.sh'" >> ~/.bashrc
+echo ""  >> $b
+echo "# Updated: $d" >> $b
+echo "# Settings alias for project https://github.com/KeyJoo/instaphoto" >> $b
+echo "# Run it only in specifically in ~/code/github/instaphoto " >> $b
+echo "alias shs='sh s.sh'" >> $b
 sleep 1.5
 
 echo ""
-echo "Set alias -shs- to ~/.zshrc "
-echo "# Settings alias for project https://github.com/KeyJoo/instaphoto" >> ~/.zshrc
-echo "# Run it only in specifically in ~/code/github/instaphoto " >> ~/.zshrc 
-echo "alias shs='sh s.sh'" >> ~/.zshrc
+echo "Set alias -shs- to $z "
+echo ""  >> $z
+echo "# Updated: $d" >> $z
+echo "# Settings alias for project https://github.com/KeyJoo/instaphoto" >> $z
+echo "# Run it only in specifically in ~/code/github/instaphoto " >> $z 
+echo "alias shs='sh s.sh'" >> $z
 sleep 1.5
 
 echo ""
