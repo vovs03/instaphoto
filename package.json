@@ -2,6 +2,6 @@
   "name": "Instaphoto",
   "private": true,
   "dependencies": {
-    "heroku": "^7.0.60"
+    "heroku": "^7.69.1"
   }
 }
